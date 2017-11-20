@@ -18,32 +18,184 @@
 		<div id="div-2-hdr">
 			<nav>
 			<ul>
-				<li><a href="conceptos.html">Amenazas</a></li>
-				<li><a href="mecanismos.html">Amenazas</a></li>
+				<li><a href="inicio.html">inicio</a></li>
+				<li><a href="conceptos.html">conceptos</a></li>
+				<li><a href="mecanismos.html">Mecanismos</a></li>
 				<li><a href="Amenazas.html">Amenazas</a></li>
 				<li><a href="Estandares.html">Estandares</a></li>
 				<li><a href="vulnerabilidades.html">vulnerabilidades</a></li>
 				
 			</ul>
 		</nav>		
-		</div>			
-		
+		</div>	
 	</header>
-	<section id="amenazas">
-		<div id="div-imagen1"><img id="password" src="sgv/password4.jpg" alt="seguridad informatica" ></div>
-		<<article id="lectura1">
-			<p>
-				La seguridad informática, también conocida como
-				ciberseguridad o seguridad de tecnologías de la información, es el área
-				relacionada con la informática y la telemática que se enfoca en la protección de
-				la infraestructura computacional y todo lo relacionado con esta y,
-				especialmente, la información contenida en una computadora o circulante a
-				través de las redes de computadoras.1​ Para ello existen una serie de
-				estándares, protocolos, métodos, reglas, herramientas y leyes concebidas para
-				minimizar los posibles riesgos a la infraestructura o a la información.
-			</p>
-		</article>			
-	</section>
+	
+		<section id="seccion_amenazas">
+		<h1 id="mecanismos"> AMENAZAS EN LA SEGURIDAD INFORMATICA</h1>
+		<div id="div-2-S2">
+			
+		</div>
+			<article id="lec-amenazas">
+					<h4> AMENAZAS </h4><br/>
+					<p> 
+						<br><strong> Clasificacion de las amenazas </strong><br>
+						<br>De forma general podemos clasificar las amenazas en:<br>
+						<ul>
+							<li>Amenazas fisicas</li>
+							<li>Amenazas logicas</li>
+						</ul>
+                       							
+						<br>Estas amenazas tanto fisicas como logicas son materializadas por:</p><br>
+						<ul>
+							<li>las personas</li>
+							<li>programas específicos</li>
+							<li>catástrofes naturales</li>							 
+						</ul> <br>
+
+						<h4>origen de las amenazas</h4> <br>
+
+						<ul>
+							<li>Amenazas naturales: inundación, incendio, tormenta, fallo eléctrico, explosión, etc..</li>
+							<li>Amenazas de agentes externos: virus informáticos, ataques de una organización criminal, sabotajes terroristas, disturbios y conflictos sociales, intrusos en la red, robos, estafas, etc..</li>
+							<li>Amenazas de agentes internos: empleados descuidados con una formación inadecuada o descontentos, errores en la utilización de las herramientas y recursos del sistema, etc...</li><br>
+						</ul>
+
+						<h4>Intencionalidad de las amenazas</h4><br>
+						<ul>
+							<li>Accidentes: averías del hardware y fallos del software, incendio, inundación, etc...</li>
+							<li>Errores: errores de utilización, de explotación, de ejecución de procedimientos, etc...</li>
+							<li>Actuaciones malintencionadas: robos, fraudes, sabotajes, intentos de intrusión, etc...</li>
+						</ul> <br>
+					</p>
+					<h4>NATURALEZA DE LAS AMENAZAS</h4>	<br>	
+					<p>
+						La agrupación de las amenazas atendiendo al factor de seguridad que comprometen es la siguiente: <br>
+						<ul>
+							<li>Interceptación</li>
+							<li>Modificación</li>
+							<li>Interrupción</li>
+							<li>Fabricación</li>
+						</ul><br>
+
+						<p><strong>1. flujo normal de la informacion:</strong>
+
+							<br>se garantiza: 
+
+							<ul>
+								<li>Confidencialidad: nadie no autorizado accede a la información.</li>
+								<li>Integridad: los datos enviados no se modifican en el camino.</li>
+								<li>Disponibilidad: la recepción y acceso es correcto.</li>
+						</p><br>
+
+						<p><strong>2. Interceptacion:</strong> acceso a la información por parte de personas no autorizadas. Uso de privilegios no adquiridos.<br>  
+
+							<p><center><br><img src="img/interceptacion.PNG" alt="interceptacion"> </center></p>
+
+							<ul>
+								<li><strong>deteccion dificil:</strong> no deja huellas. <br>
+									<p>se garantiza:
+										<li>integridad</li>
+										<li>disponibilidad</li> <br>
+									</p>
+								</li>
+									<p>No se garantiza:
+										<li>integridad</li>
+										<li>disponibilidad</li><br>
+									</p>
+								</li>								
+							</ul>
+						</p>
+
+						<p><strong>3. Modificacion:</strong> acceso no autorizado que cambia el entorno para su beneficio.<br>  
+
+							<p><center><br><img src="img/modificacion.PNG" alt="modificacion"> </center></p>
+
+							<ul>
+								<li><strong>deteccion dificil segun circunstancias</strong>
+									<br>
+									<p>se garantiza:
+										<li>Disponibilidad: la recepción es correcta</li><br>
+									</p>
+								</li>
+									<p>No se garantiza:
+										<li>Integridad: los datos enviados pueden ser modificados en el camino.</li>
+										<li>Confidencialidad: alguien no autorizado accede a la información.</li><br>
+									</p>
+								</li>								
+							</ul>
+						</p>
+						
+						<p><strong>4. Interrupcion:</strong> puede provocar que un objeto del sistema se pierda, quede no utilizable o no disponible.<br>  
+
+							<p><center><br><img src="img/interrupcion.PNG" alt="interrupcion"> </center></p>
+
+							<ul>
+								<li><strong>deteccion inmediata</strong><br>
+									<p>se garantiza:
+										<li>Confidencialidad: nadie no autorizado accede a la información</li><br>
+										<li>Integridad: los datos enviados no se modifican en el camino</li><br>
+									</p>
+								</li>
+									<p>No se garantiza:
+										<li>Disponibilidad: puede que la recepción no sea correcta.</li><br>
+									</p>
+								</li>								
+							</ul>
+						</p>
+
+						<p><strong>5. Fabricacion:</strong> puede considerarse como un caso concreto de modificación ya que se consigue un objeto similar al atacado de forma que no resulte sencillo distinguir entre objeto original y el fabricado.<br>  
+
+							<p><center><br><img src="img/fabricacion.PNG" alt="fabricacion"> </center></p>
+
+							<ul>
+								<li><strong>deteccion dificil delitos de falsificacion</strong><br>
+									<p>se garantiza:
+										<li>Confidencialidad: nadie no autorizado accede a la información.</li><br>
+										<li>Integridad: los datos enviados no se modifican en el camino</li><br>
+										<li>Disponibilidad: la recepción es correcta.</li><br>
+									</p>
+								</li>																
+							</ul>
+						</p>
+
+						<h4>Amenazas provocadas por personas</h4>
+						<p>
+							<br>La mayor parte de los ataques a los sistemas informáticos son provocados, intencionadamente o no, por las personas.
+
+							<br>¿Qué se busca?
+
+							<br>En general lo que se busca es conseguir un nivel de privilegio en el sistema que les permita realizar acciones sobre el sistema no autorizadas.
+
+							<br>Podemos clasificar las personas 'atacantes' en dos grupos:
+
+							<ol>
+								<li><strong>Activos:</strong>su objetivo es hacer daño de alguna forma. Eliminar información, modificar o sustraerla para su provecho.</li>
+								<li><strong>pasivos:</strong> su objetivo es curiosear en el sistema.</li>
+							</ol>
+						</p>
+
+
+
+			</article>						
+		</div>	
+			<article id="amenazas-fisicas">
+				<h5>AMENAZAS FISICAS</h5>
+				<p>
+					
+				</p>
+			</article>
+
+		<div>
+			<article id="amenazas-logicas">
+				<h5>AMENAZAS LOGICAS</h5>
+				<p>
+					 
+				</p>
+			</article>
+			
+		</div>	
+
+		
 
 </body>
 </html>

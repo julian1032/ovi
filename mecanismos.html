@@ -2,9 +2,130 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta description="conceptos basicos seguridad informtica">
+	<title>Mecanismos de seguridad</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-	
+	<header>
+		<div id="div-1-hdr">
+			<h2>SEGURIDAD INFORMATICA</h2>
+			<img id="lg-header" src="img/125533-ORHHGP-991.jpg" alt="logo header">
+		</div>
+
+		<div id="div-2-hdr">
+			<nav>
+			<ul>
+				<li><a href="inicio.html">inicio</a></li>
+				<li><a href="conceptos.html">conceptos</a></li>
+				<li><a href="mecanismos.html">Mecanismos</a></li>
+				<li><a href="Amenazas.html">Amenazas</a></li>
+				<li><a href="Estandares.html">Estandares</a></li>
+				<li><a href="vulnerabilidades.html">vulnerabilidades</a></li>				
+			</ul>
+		</nav>		
+		</div>	
+	</header>
+
+	<section id="seccion_mecanismos">
+		<h1 id="mecanismos"> MECANISMOS BASICOS DE SEGURIDAD INFORMATICA</h1>
+		<div id="div-2-S2">
+			<img id="prevencion" src="img/OAV9EW0.jpg" alt=" mecanismo de prevencion">
+			<img id="proteccion" src="img/15188-NQ1LJV.jpg" alt="mecanismo de proteccion">
+			<img id="recuperacion" src="img/OAV9FP0.jpg" alt="mecanismo de recuperacion">
+		</div>
+			<article id="lec-autenticacion">
+					<h5> AUTENTICACION </h5><br/>
+					<p> Definimos <strong>la Autenticación </strong> como la verificación de la identidad del usuario, generalmente cuando entra en el sistema o la red, o accede a una base de datos.
+                    Normalmente para entrar en el sistema informático se utiliza un nombre de usuario y una contraseña. Pero, cada vez más se están utilizando otras técnicas mas seguras<br/>
+                        <br>Es posible autenticarse de tres maneras:<br>
+                    	<br>1. Por lo que uno sabe (una contraseña)</p>
+						<p>2. Por lo que uno tiene (una tarjeta magnética)</p>
+						<p>3. Por lo que uno es (las huellas digitales)</p>
+						<br>La utilización de más de un método a la vez aumenta las probabilidades de que la autenticación sea correcta. Pero la decisión de adoptar mas de un modo de autenticación por parte de las empresas debe estar en relación al valor de la información a proteger.</p>
+
+						<br>La técnica más usual (aunque no siempre bien) es la autenticación utilizando contraseñas. Este método será mejor o peor dependiendo de las características de la contraseña. En la medida que la contraseña sea más grande y compleja para ser adivinada, más difícil será burlar esta técnica.</p>
+
+						<br>Además, la contraseña debe ser confidencial. No puede ser conocida por nadie más que el usuario. Muchas veces sucede que los usuarios se prestan las contraseñas o las anotan en un papel pegado en el escritorio y que puede ser leído por cualquier otro usuario, comprometiendo a la empresa y al propio dueño, ya que la acción/es que se hagan con esa contraseña es/son responsabilidad del dueño.</p>
+
+						<br>Para que la contraseña sea difícil de adivinar debe tener un conjunto de caracteres amplio y variado (con minúsculas, mayúsculas y números). El problema es que los usuarios difícilmente recuerdan contraseñas tan elaboradas y utilizan (utilizamos) palabras previsibles (el nombre, el apellido, el nombre de usuario, el grupo musical preferido,...), que facilitan la tarea a quién quiere entrar en el sistema sin autorización.</p>									
+			</article>						
+		</div>	
+			<article id="lec-autorizacion">
+				<h5>AUTORIZACION</h5>
+				<p>
+					Definimos la Autorización como el proceso por el cual se determina qué, cómo y cuándo, un usuario autenticado puede utilizar los recursos de la organización. <br/>
+
+					<br>El mecanismo o el grado de autorización puede variar dependiendo de qué sea lo que se está protegiendo. No toda la información de la organización es igual de crítica. Los recursos en general y los datos en particular, se organizan en niveles y cada nivel debe tener una autorización.</p>
+
+					<br>Dependiendo del recurso la autorización puede hacerse por medio de la firma en un formulario o mediante una contraseña, pero siempre es necesario que dicha autorización quede registrada para ser controlada posteriormente.
+
+					<br>En el caso de los datos, la autorización debe asegurar la confidencialidad e integridad, ya sea dando o denegando el acceso en lectura, modificación, creación o borrado de los datos.</p>
+
+					<br>Por otra parte, solo se debe dar autorización a acceder a un recurso a aquellos usuarios que lo necesiten para hacer su trabajo, y si no se le negará. Aunque también es posible dar autorizaciones transitorias o modificarlas a medida que las necesidades del usuario varíen.</p>
+				</p>
+			</article>
+
+		<div>
+			<article id="lec-administracion">
+				<h5>ADMINISTRACION</h5>
+				<p>
+					Definimos la Administración como la que establece, mantiene y elimina las autorizaciones de los usuarios del sistema, los recursos del sistema y las relaciones usuarios-recursos del sistema. <br/>
+
+					<br>Los administradores son responsables de transformar las políticas de la organización y las autorizaciones otorgadas a un formato que pueda ser usado por el sistema.</p>
+					<br>La administración de la seguridad informática dentro de la organización es una tarea en continuo cambio y evolución ya que las tecnologías utilizadas cambian muy rápidamente y con ellas los riesgos.</p>
+
+					<br>Normalmente todos los sistemas operativos que se precian disponen de módulos específicos de administración de seguridad. Y también existe software externo y específico que se puede utilizar en cada situación.</p>
+				</p>
+			</article>
+			
+		</div>	
+
+		<div>
+			<article id="lec-auditoria">
+				<h5>AUDITORIA</h5>
+				<p>
+					<br>Definimos la Auditoría como la continua vigilancia de los servicios en producción y para ello se recaba información y se analiza.<br/>
+
+					<br>Este proceso permite a los administradores verificar que las técnicas de autenticación y autorización utilizadas se realizan según lo establecido y se cumplen los objetivos fijados por la organización. <br>
+
+					<br>Definimos el Registro como el mecanismo por el cual cualquier intento de violar las reglas de seguridad establecidas queda almacenado en una base de eventos para luego analizarlo. <br>
+
+					<br>Pero auditar y registrar no tiene sentido sino van acompañados de un estudio posterior en el que se analice la información recabada. <br>
+
+					<br>Monitorear la información registrada o auditar se puede realizar mediante medios manuales o automáticos, y con una periodicidad que dependerá de lo crítica que sea la información protegida y del nivel de riesgo. <br>
+				</p>
+			</article>			
+		</div>	
+
+		<div>
+			<article id="lec-mantenimiento">
+				<h5>MANTENIMIENTO</h5>
+				<p>
+					<br>Definimos el Mantenimiento de la integridad de la información como el conjunto de procedimientos establecidos para evitar o controlar que los archivos sufran cambios no autorizados y que la información enviada desde un punto llegue al destino inalterada. <br>
+
+					<br>Dentro de las técnicas más utilizadas para mantener (o controlar) la integridad de los datos están: uso de antivirus, encriptación y funciones 'hash'.
+				</p>
+			</article>
+			
+		</div>	
+	</section>	
+
+	<footer>
+		<div id="encabezado">
+			<h1 id="title-footer"> SEGURIDAD INFORMATICA</h1>
+			<img id="lg-footer" src="img/125533-ORHHGP-991.jpg" alt="logo seguridad">			
+		</div>
+
+		<div id="information">			
+			<p id=" p-footer">calle 6 a # 93 D 67. julianavenia@gmail.com. PBX (+57) 3173659650. seguridad de la informacion</p>
+		</div>
+
+		<div id="license">
+			<img id="lg-licensed" src="img/001-symbols.png" alt="logo license">
+		</div>
+	</footer>
+
 </body>
 </html>

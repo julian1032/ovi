@@ -371,7 +371,6 @@ footer{
 	margin-left: 1300px;
 	padding: 10px 10px;
 	float: left;
-
 }
 
 #lg-licensed{
@@ -383,5 +382,128 @@ footer{
 	float: left;
 }
 
+#sec_video{
+	width: 1450px;
+	height: 700px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;
+	padding: 20px 20px;
+}
 
+#seccion_mecanismos{
+	width: 1490px;
+	height: 3150px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;
+	padding: 10px 10px;
+}
 
+#div-1-mecanismos{
+	width: 1400px;
+	height: 400px;
+	border: 2px solid black;
+	margin: 30px;
+	margin-top: 950px;
+	font-size: 35px;
+	padding: 20px 20px;	
+}
+
+#lec-autenticacion {
+	width: 1400px;
+	height: 850px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+#lec-autorizacion{
+	width: 1400px;
+	height: 450px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+#lec-administracion{
+	width: 1400px;
+	height: 370px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+
+}
+
+#lec-auditoria{
+	width: 1400px;
+	height: 455px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+
+}
+
+#lec-mantenimiento{
+	width: 1400px;
+	height: 240px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+#seccion_amenazas{
+	width: 1490px;
+	height: 6000px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;	
+	padding: 10px 10px;
+}
+	
+#lec-amenazas{
+	width: 1400px;
+	height: 3500px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+#amenazas-fisicas{
+	width: 1400px;
+	height: 450px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+#amenazas-logicas{
+	width: 1400px;
+	height: 370px;
+	margin-top: 30px;
+	margin-left: 20px;
+	padding: 10px 10px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
