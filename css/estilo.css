@@ -1,9 +1,9 @@
 *{
-	margin: 0;
-	padding: 0;
+	margin: 1px;
+    padding: 1px;
 }
 header{
-	background-color: #FBF9F9;
+	background-color: #B3B3B3;
 	height:179px;
 	width:1500px;
 	border:2px solid black;
@@ -13,24 +13,23 @@ header{
 }
 
 #div-1-hdr{
-	width: 350px;
-	height: 145px;
-	border: 1px solid black;
-	margin: 5px;
-	margin-top: 10px;
-	padding: 5px 5px;
-	float: left;
+	width: 368px;
+    height: 145px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px 5px;
+    float: left;
 }
 
 #div-2-hdr{
-	width: 500px;
-	height: 50px;
-	border: 1px solid black;
-	margin: 30px;
-	margin-left: 950px;
-	margin-top: -80px;
-	padding: 10px 10px;
-	float: left;
+	width: 529px;
+    height: 50px;
+    border: 1px solid #066db3;
+    margin: 30px;
+    margin-left: 950px;
+    margin-top: -80px;
+    padding: -1px 15px;
+    float: left;
 }
 
 h2{
@@ -42,13 +41,14 @@ h2{
 }
 
 #lg-header{
-	width: 150px;
-	height:70px;
-	border: 1px solid black;
-	margin-top: -130px;	
-	margin-left: 10px;
-	padding: 10px 10px;	
-	float: left;
+	width: auto;
+    height: 70px;
+    border: 1px solid black;
+    margin-top: -130px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    float: left;
+    background-color: white;
 }
 nav ul{
 	display: flex;	
@@ -58,13 +58,13 @@ nav ul{
 
 nav ul li a{
 	display: block;
-	padding: 10px 10px;
-	background-color: #FFFFFF;
-	color: #080808;	
-	border:1px solid #A19C9C;
-	text-decoration: none;
-	font-size: 12px;
-	font-family: helvetica;
+    padding: 10px 10px;
+    background-color: #005883;;
+    color: #fbf9f9;
+    border: 1px solid #A19C9C;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: helvetica;
 
 }
 
@@ -74,16 +74,18 @@ nav ul li a{
 	border: 2px solid black;
 	margin: 180px;
 	margin-top: -150px;
+	background-color: #B3B3B3;);
 }
 
 #div-imagen1{
 	width: 1400px;
-	height:450px;
-	border: 1px solid black;
-	margin-top:  10px;
-	margin: 30px;
-	padding: 20px 10px;
-	align-content: center;
+    height: 450px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin: 30px;
+    padding: 20px 10px;
+    align-content: center;
+    background-color: #005883;
 }
 
 #password{
@@ -111,6 +113,7 @@ nav ul li a{
 	border: 2px solid black;
 	margin: 180px;
 	margin-top: -150px;
+	background-color: #F0B429
 }
 
 #mecanismos{
@@ -130,15 +133,46 @@ nav ul li a{
 }
 
 #div-2-S2{
-	width: 1410px;
+	width: 1380px;
 	height: 400px;
 	border: 2px solid black;
-	margin: 30px;
+	margin: 50px;
 	margin-top: 5px;
 	font-size: 35px;
 	padding: 10px 10px;
+	background-color: #333333;
 	
 }
+
+#imagen-amenaza{
+	width: 1000px;
+	height: 360px;
+	border: 1px black;
+	margin: 150px;
+	margin-top: 15px;
+	font-size: 35px;
+	padding: 10px 10px;
+}
+#imagen-vulnerable{
+	width: 1000px;
+	height: 360px;
+	border: 1px black;
+	margin: 180px;
+	margin-top: 15px;
+	font-size: 35px;
+	padding: 10px 10px;
+}
+#imagen-estandar{
+	width: 1000px;
+	height: 360px;
+	border: 1px black;
+	margin: 180px;
+	margin-top: 15px;
+	font-size: 35px;
+	padding: 10px 10px;
+}
+
+
 
 #prevencion{
 	width: 300px;
@@ -177,6 +211,7 @@ nav ul li a{
 	border: 2px solid black;
 	margin: 180px;
 	margin-top: -150px;
+	background-color: #005883;
 }
 
 #conceptos{
@@ -197,12 +232,12 @@ nav ul li a{
 
 #confidencialidad{
 	width: 300px;
-	height:130px;
-	border: 1px solid black;
-	margin-top: 20px;	
-	margin-left: 60px;
-	padding: 20px 20px;	
-	float: left;
+    height: 130px;
+    border: 1px solid black;
+    margin-top: 48px;
+    margin-left: 60px;
+    padding: 20px 20px;
+    float: left;
 }
 
 #art-confidencialidad{
@@ -213,7 +248,9 @@ nav ul li a{
 	margin-top: 20px;
 	font-size: 35px;
 	padding: 10px 10px;	
+	color: white;
 	text-align: left;
+
 }
 
 #lec-confidencialidad{
@@ -230,6 +267,7 @@ nav ul li a{
 	margin: 30px;
 	margin-top: 20px;
 	font-size: 35px;
+	color: white;
 	padding: 10px 10px;	
 }
 
@@ -257,10 +295,10 @@ nav ul li a{
 
 #lec-integridad{
 	border: 2px solid black;
-	width: 900px;
-	margin-top: 5px;
-	margin-left: 360px;
-	padding: 20px 20px;
+    width: 900px;
+    margin-top: 5px;
+    margin-left: 372px;
+    padding: 7px 20px;
 }
 
 #div-3-S3{
@@ -292,6 +330,7 @@ nav ul li a{
 	margin-top: 2px;
 	font-size: 25px;
 	padding: 20px 20px;	
+	color: white;
 	text-align: left;
 }
 
@@ -313,24 +352,117 @@ nav ul li a{
 	padding: 15px 10px;
 	align-content: center;	
 }
-
-footer{
-	background-color: #FBF9F9;
-	height:300px;
-	width:1500px;
-	border:2px solid black;
-	margin: 180px;
-	margin-top: -150px;
-	font-family: helvetica;
+#div-1-footer{
+	border: 1px solid #fbf9f9;
+    height: 35%;
+    width: 97%;
+    padding: 5px;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: black;
+}
+#div-isos{
+	border: 1px solid #fbf9f9;
+    height: 68%;
+    width: 99%;
+    padding: 5px;
+    margin-top: -10%;
+    margin-left: 0%;
+    background-color: black;
 }
 
+#iso-1{
+	width: 96px;
+    height: 87px;
+    margin-top: -9px;
+    margin-left: 427px;
+    padding: 20px 10px;
+    float: left;
+    
+}
+#iso-2{
+	width: 96px;
+    height: 87px;
+    margin-top: -9px;
+    margin-left: -16px;
+    padding: 20px 10px;
+    float: left;
+    
+}
+#iso-3{
+	width: 96px;
+    height: 87px;
+    margin-top: -9px;
+    margin-left: -16px;
+    padding: 20px 10px;
+    float: left;
+    
+}
+#iso-4{
+	width: 96px;
+    height: 87px;
+    margin-top: -9px;
+    margin-left: -15px;
+    padding: 20px 10px;
+    float: left;
+    
+}
+#iso-5{
+	width: 96px;
+    height: 87px;
+    margin-top: -9px;
+    margin-left: -15px;
+    padding: 20px 10px;
+    float: left;
+    
+}
+
+#information-final{
+	border: 1px solid #fbf9f9;
+    height: 68%;
+    width: 99%;
+    padding: 5px;
+    margin-top: 1%;
+    margin-left: 0%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#div-footer-amenazas{
+	width: 1471px;
+    height: 450px;
+    border: 2px solid black;
+    margin: -12px;
+    margin-top: 51px;
+    padding: 20px 20px;
+    background-color: black;
+}
+#div-footer-index{
+    width: 1471px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 179px;
+    margin-top: -169px;
+    padding: 20px 20px;
+    background-color: black;
+}
+footer{
+	background-color: black;
+    height: 453px;
+    width: 1462px;
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: -4px;
+    padding: -20px -20px;
+    font-family: helvetica;
+}
 #encabezado{
-	width: 450px;
-	height: 250px;
-	border: 1px solid black;
-	margin: 30px;
-	margin-top: 15px;
-	padding: 10px 10px;	
+	width: 36%;
+    height: 245px;
+    margin: 30px;
+    margin-top: 15px;
+    padding: 10px 10px;
 }
 
 #title-footer{
@@ -341,25 +473,44 @@ footer{
 }
 
 #lg-footer{
-	width: 200px;
-	height:100px;
-	border: 1px solid black;
-	margin-top: -230px;	
-	margin-left: 30px;
-	padding: 20px 20px;	
-	float: left;
+	width: auto;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: -15px;
+    margin-left: 1px;
+    padding: 20px 20px;
+    float: left;
 }
+
 #information{
-	width: 400px;
-	height: 150px;
-	border: 1px solid black;
-	margin: -30px;
-	margin-left: 670px;
-	margin-top: -200px;
-	padding: 5px 5px;
-	text-align: center;
-	font-size: 30px;
-	float: left;
+	width: 329px;
+    height: 80px;
+    border: 1px solid black;
+    margin: -30px;
+    margin-left: 574px;
+    margin-top: -302px;
+    padding: 5px 5px;
+    text-align: -webkit-left;
+    font-size: 12px;
+    float: left;
+    color: white;
+    background-color: black;
+  
+}
+
+#information-1{
+	width: 329px;
+    height: 80px;
+    border: 1px solid black;
+    margin: -30px;
+    margin-left: 927px;
+    margin-top: -302px;
+    padding: 5px 5px;
+    text-align: -webkit-left;
+    font-size: 12px;
+    float: left;
+    background-color: black;
+    color: white;
 }
 
 #license{
@@ -393,11 +544,12 @@ footer{
 
 #seccion_mecanismos{
 	width: 1490px;
-	height: 3150px;
+	height: 3180px;
 	border: 2px solid black;
 	margin: 180px;
 	margin-top: -150px;
 	padding: 10px 10px;
+	background-color: #B3B3B3;;
 }
 
 #div-1-mecanismos{
@@ -469,41 +621,92 @@ footer{
 
 #seccion_amenazas{
 	width: 1490px;
-	height: 6000px;
-	border: 2px solid black;
-	margin: 180px;
-	margin-top: -150px;	
-	padding: 10px 10px;
+    height: 9255px;
+    border: 2px solid black;
+    margin: 180px;
+    margin-top: -150px;
+    padding: 10px 10px;
+    background-color: #B3B3B3;
 }
 	
 #lec-amenazas{
-	width: 1400px;
-	height: 3500px;
-	margin-top: 30px;
-	margin-left: 20px;
-	padding: 10px 10px;
-	font-size: 25px;
-	border: 2px solid black;
-	font-family: helvetica;
+	width: 1370px;
+    height: 4268px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 15px;
+    font-size: 25px;
+    border: 2px solid black;
+    font-family: helvetica;
+    background-color: #808080;
+
+
 }
 
 #amenazas-fisicas{
 	width: 1400px;
-	height: 450px;
+	height: 4305px;
 	margin-top: 30px;
 	margin-left: 20px;
-	padding: 10px 10px;
+	padding: 15px 15px;
 	font-size: 25px;
 	border: 2px solid black;
 	font-family: helvetica;
+	background-color:  #005883;
 }
 
-#amenazas-logicas{
-	width: 1400px;
-	height: 370px;
-	margin-top: 30px;
-	margin-left: 20px;
+ul{
+
+	list-style-position:inside;
+	list-style-type: square;
+}
+
+li{
+	
+	list-style-position: inside;
+}
+ol{
+	list-style-position: inside;
+}
+#seccion_vulnerabilidades{
+	width: 1490px;
+	height: 2626px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;	
 	padding: 10px 10px;
+	background-color: #005883;
+}
+#lec-vulnerabilidades{
+	width: 1370px;
+	height: 2042px;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding: 15px 15px;
 	font-size: 25px;
 	border: 2px solid black;
 	font-family: helvetica;
+	background-color: #B3B3B3;
+}
+#seccion-estandares{
+	width: 1490px;
+	height: 1400px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;	
+	padding: 10px 10px;
+	background-color: #808080;
+}
+
+#lec-estandares{
+	width: 1370px;
+	height: 800px;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding: 15px 15px;
+	font-size: 25px;
+	border: 2px solid black;
+	font-family: helvetica;
+	background-color: #B3B3B3;
+}
+
