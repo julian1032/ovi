@@ -639,8 +639,14 @@ footer{
     border: 2px solid black;
     font-family: helvetica;
     background-color: #808080;
-
-
+}
+#video-amenazas{
+	width: 838px;
+    height: 328px;
+    border: 2px solid #00000021;
+    margin: 222px;
+    margin-top: 11px;
+    padding: 20px 20px;
 }
 
 #amenazas-fisicas{
