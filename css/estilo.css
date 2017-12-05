@@ -22,11 +22,11 @@ header{
 }
 
 #div-2-hdr{
-	width: 529px;
+	width: 595px;
     height: 50px;
     border: 1px solid #066db3;
     margin: 30px;
-    margin-left: 950px;
+    margin-left: 865px;
     margin-top: -80px;
     padding: -1px 15px;
     float: left;
@@ -716,3 +716,35 @@ ol{
 	background-color: #B3B3B3;
 }
 
+#seccion-creditos{
+	width: 1490px;
+	height: 1016px;
+	border: 2px solid black;
+	margin: 180px;
+	margin-top: -150px;	
+	padding: 10px 10px;
+	background-color: #F47920;
+}
+
+#imagen-autor{
+	width: 380px;
+    height: 360px;
+    border: 1px black;
+    margin: 484px;
+    margin-top: 15px;
+    font-size: 35px;
+    padding: 10px 10px;
+}
+
+#lec-creditos{
+	width: 1370px;
+    height: 409px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 15px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: helvetica;
+    background-color: #005883;
+}
