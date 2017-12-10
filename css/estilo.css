@@ -5,7 +5,7 @@
 header{
 	background-color: #B3B3B3;
 	height:179px;
-	width:1500px;
+	width:1508px;
 	border:2px solid black;
 	margin: 180px;
 	margin-top: 10px;
@@ -433,8 +433,8 @@ nav ul li a{
 	width: 1471px;
     height: 450px;
     border: 2px solid black;
-    margin: -12px;
-    margin-top: 51px;
+    margin: 180px;
+    margin-top: -173px;
     padding: 20px 20px;
     background-color: black;
 }
@@ -624,7 +624,7 @@ footer{
 
 #seccion_amenazas{
 	width: 1490px;
-    height: 9255px;
+    height: 8944px;
     border: 2px solid black;
     margin: 180px;
     margin-top: -150px;
@@ -634,7 +634,7 @@ footer{
 	
 #lec-amenazas{
 	width: 1370px;
-    height: 4268px;
+    height: 3985px;
     margin-top: 30px;
     margin-left: 50px;
     padding: 15px 15px;
@@ -663,6 +663,21 @@ footer{
 	font-family: helvetica;
 	background-color:  #005883;
 }
+#jpg-intercepcion{
+	margin-left:  33%;
+}
+
+#jpg-modificacion{
+	margin-left:  33%;
+}
+
+#jpg-interrupcion{
+	margin-left:  33%;
+}
+
+#jpg-fabricacion{
+	margin-left:  33%;
+}
 
 ul{
 
@@ -679,7 +694,7 @@ ol{
 }
 #seccion_vulnerabilidades{
 	width: 1490px;
-	height: 2626px;
+	height: 2414px;
 	border: 2px solid black;
 	margin: 180px;
 	margin-top: -150px;	
@@ -688,7 +703,7 @@ ol{
 }
 #lec-vulnerabilidades{
 	width: 1370px;
-	height: 2042px;
+	height: 1814px;
 	margin-top: 30px;
 	margin-left: 50px;
 	padding: 15px 15px;

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="sitio web sobre seguridad informatica">
+	<meta name="description" content="seguridad informatica">
+	<meta name="keywords" content="conceptos basicos, estandares, vulnerabilidades, amenazas, mecanismos, seguridad de la informacion">	 
+	<meta name="author" content="julian Avenia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Vulnerabilidades</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -47,59 +50,76 @@
 					<p>
 						Una vulnerabilidad es una característica de un activo de información y que representa un riesgo para la seguridad de la información. Cuando se materializa una amenaza, hay una vulnerabilidad que pueda ser aprovechada, por lo que existe una exposición a que se presente algún tipo de pérdida para la empresa. El hecho detener contraseñas o  claves  débiles en los  sistemas y/o que la  red de datos  no  estéprotegida puede ser aprovechado para los ataques informáticos externos. <br>
 
-						<br> Las vulnerabilidades de los sistemas informáticos se agrupan en:
-
-						<br><ul>
-							<br><li><strong>Diseño:</strong><br>
-								<br><li type="circle">Debilidad en el diseño de protocolos utilizados en las redes.</li>
-								<br><li type="circle">Existencia de “puertas traseras” en los sistemas informáticos.</li>								
-							</li>
+						<br> Las vulnerabilidades de los sistemas informáticos se agrupan en:<br>
+						<br>
+						<ul>
+							<li><strong>1. Vulnerabilidades de diseño Diseño:</strong>
 						</ul>
-
-						<br><ul>
-							<br><li><strong>Implementaion:</strong><br>
-								<br><li type="circle">Errores de programación.</li>
-								<br><li type="circle">Políticas de seguridad deficientes e inexistentes.</li>
-								<br><li type="circle">Descuido de los fabricantes.</li>
-							</li>
+						<br>
+						<ul>
+							<li>Debilidad en el diseño de protocolos utilizados en las redes.</li>
+							<li>Existencia de “puertas traseras” en los sistemas informáticos.</li>
 						</ul>
+						<br>
+						<ul>
+							<li><strong>Vulnerabilidades de Implementacion:</strong>
+						</ul>
+						<br>
+						<ul>
+							<li>Errores de programación.</li>
+							<li>Políticas de seguridad deficientes e inexistentes.</li>
+							<li>Descuido de los fabricantes.</li>
+						</ul>
+						<br>
+						<ul>
+							<li><strong>Vulnerabilidades de uso:</strong>
+						</ul>
+						<br>
+						<ul>
+							<li>Mala configuración de los sistemas informáticos.</li>
+							<li>Desconocimiento   y   falta  de  sensibilización   de   los   usuarios  y  de  losresponsables de informática.</li>
+							<li>Disponibilidad de herramientas que facilitan los ataques.</li>
+							<li>Limitación gubernamental de tecnologías de seguridad.</li>
+						</ul>
+						<br>
+
+						<ol>
+							<li><strong>Vulnerabilidad del día cero:</strong>
+						</ol>
+						<br>
+						<ul>
+							<li>Se incluyen en  este grupo  aquellas vulnerabilidades  para las  cuales noexiste una solución “conocida”, pero se sabe como explotarla.</li>	
+						</ul>
+						<br>
+
+						<ul>
+							<li><strong>VULNERABILIDADES CONOCIDAS:</strong></li>
+						</ul>
+						<br>
 						
-						<br><ul>
-							<br><li><strong>Uso:</strong><br>
-								<br><li type="circle">Mala configuración de los sistemas informáticos.</li>
-								<br><li type="circle">Desconocimiento   y   falta  de  sensibilización   de   los   usuarios  y  de  losresponsables de informática.</li>
-								<br><li type="circle">Disponibilidad de herramientas que facilitan los ataques.</li>
-								<br><li type="circle">Limitación gubernamental de tecnologías de seguridad.</li>
-							</li>
+						<ul>
+							<li><strong><i>Vulnerabilidades de desbordamiento Buffer:</i></strong> Si un programa no controla la cantidad de datos que se copian en buffer,puede llegar un momento en que se sobrepase la capacidad del buffer y los bytes que sobran se almacenan en zonas de memoria adyacentes.							
 						</ul>
+						<br>Esta  situación   se  puede  aprovechar   para ejecutar  código  que   nos   deprivilegios de administrador. <br>
 
-						<br><ul>
-							<br><li><strong>Vulnerabilidad del día cero:</strong><br>
-								<br><li type="circle">Se incluyen en  este grupo  aquellas vulnerabilidades  para las  cuales noexiste una solución “conocida”, pero se sabe como explotarla.</li>															
-							</li>
+						<br>
+						<ul>
+							<li><strong><i>Vulnerabilidad de condicion de carrera (RACE CONDITION):</i></strong> Si  varios procesos  acceden  al  mismo  tiempo  a  un  recurso  compartidopuede producirse este tipo de vulnerabilidad. Es el caso típico de una variable, quecambia su estado y puede obtener de esta forma un valor no esperado.
 						</ul>
+						<br>
 
-						<br><ul>
-							<br><li><strong>VULNERABILIDADES CONOCIDAS:</strong><br>
-								<br><li type="circle"><strong><i>Vulnerabilidades de desbordamiento Buffer:</i></strong> Si un programa no controla la cantidad de datos que se copian en buffer,puede llegar un momento en que se sobrepase la capacidad del buffer y los bytes que sobran se almacenan en zonas de memoria adyacentes. <br>
-								<br>Esta  situación   se  puede  aprovechar   para ejecutar  código  que   nos   deprivilegios de administrador. <br> 
-
-								<br><li type="circle"><strong><i>Vulnerabilidad de condicion de carrera (RACE CONDITION):</i></strong> Si  varios procesos  acceden  al  mismo  tiempo  a  un  recurso  compartidopuede producirse este tipo de vulnerabilidad. Es el caso típico de una variable, quecambia su estado y puede obtener de esta forma un valor no esperado.<br>
-
-								<br><li type="circle"><strong><i>Vulnerabilidad de CROSS SITE SCRIPTING (XSS):</i></strong> Es   una  vulnerabilidad  de   las   aplicaciones   web,   que   permite inyectar código VBSript o JavaScript en páginas web vistas por el usuario. El phishing es una aplicación de esta vulnerabilidad. En el phishing la víctima cree que está accediendoa una URL (la ve en la barra de direcciones), pero en realidad está accediendo a otro sitio  diferente.  Si el   usuario  introduce  sus  credenciales  en  este  sitio  se   las  está enviando al atacante.<br>
-
-								<br><li type="circle"><strong><i>Vulnerabilidad de denegacion del servicio:</i></strong> La denegación de servicio hace que un servicio o recurso no esté disponiblepara los usuarios. Suele provocar la pérdida de la conectividad de la red por elconsumo  del ancho  de  banda de  la  red de  la  víctima  o  sobrecarga de  losrecursos informáticos del sistema de la víctima.<br>	
-								
-								<br><li type="circle"><strong><i>Vulnerabilidad de ventanas engañosas (WINDOWS SPOOFING):</i></strong> Las ventanas engañosas son las que dicen que eres el ganador de tal o cual cosa,   lo  cual  es   mentira  y   lo   único  que   quieren   es  que   el   usuario  de información. Hay otro tipo de ventanas que si las sigues obtienen datos del computador para luego realizar un ataque. <br> 
-
-								<br>Es interesante visitar la web de vez en cuando y comprobar el elevadonúmero de  vulnerabilidades  que se  van  detectando. Habría  que  ver cuántas  no sedetectan. <br>									
-									</li>
-								</li>															
-							</li>
-						</li>
+						<ul>
+							<li><strong><i>Vulnerabilidad de CROSS SITE SCRIPTING (XSS):</i></strong> Es   una  vulnerabilidad  de   las   aplicaciones   web,   que   permite inyectar código VBSript o JavaScript en páginas web vistas por el usuario. El phishing es una aplicación de esta vulnerabilidad. En el phishing la víctima cree que está accediendoa una URL (la ve en la barra de direcciones), pero en realidad está accediendo a otro sitio  diferente.  Si el   usuario  introduce  sus  credenciales  en  este  sitio  se   las  está enviando al atacante.
 						</ul>
-					</p>
-
+						<br>
+						<ul>
+							<li><strong><i>Vulnerabilidad de denegacion del servicio:</i></strong> La denegación de servicio hace que un servicio o recurso no esté disponiblepara los usuarios. Suele provocar la pérdida de la conectividad de la red por elconsumo  del ancho  de  banda de  la  red de  la  víctima  o  sobrecarga de  losrecursos informáticos del sistema de la víctima.
+						</ul>
+						<br>
+						<ul>
+							<li><strong><i>Vulnerabilidad de ventanas engañosas (WINDOWS SPOOFING):</i></strong> Las ventanas engañosas son las que dicen que eres el ganador de tal o cual cosa,   lo  cual  es   mentira  y   lo   único  que   quieren   es  que   el   usuario  de información. Hay otro tipo de ventanas que si las sigues obtienen datos del computador para luego realizar un ataque. 
+						</ul>
+						<br>Es interesante visitar la web de vez en cuando y comprobar el elevadonúmero de  vulnerabilidades  que se  van  detectando. Habría  que  ver cuántas  no sedetectan. <br>
 			</article>
 	
 	</section>
